@@ -1,0 +1,78 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Troll-Block Network - Gestió de llistes i notificacions</title>
+    <meta name="description" content="#Troll-Block Network - Perfils reportats">
+    <link id="favicon" rel="icon" href="https://trollblocknet.github.io/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+    
+  </head>
+<body onload="buildHtmlTable('#excelDataTable')">
+    <header>
+      <div class="welcomeTitle">
+        <a href="https://www.twitter.com/trollblocknet"><img class="logo "alt="Troll-Block Network - Twitter trollbusters at your service" height="50" width="50" src="https://cdn.glitch.com/6fac0864-fa20-4987-b433-d571b92ffe32%2Ftrollblocknet-logo.png?1548802139590"></a>
+      <welcometitle>
+      
+        <span class="customTitle">Troll-Block Network <span class="ribbon">🎗</span></span>
+      
+        </welcometitle>
+      </div>
+    </header>
+
+    <main> 
+    
+      <h2>🔔 NOTIFICACIONS DE PERFILS REPORTATS PENDENTS DE VERIFICAR:</h2>
+    
+    <section>
+      <table id="excelDataTable" border="1" class="tg"></table>
+    </section>
+    
+    <h5><a href="#">Actualitzar llista</a></h5>  
+        
+    
+    <div class="card card-3">
+    <h4>⚠️ Informació al respecte de la gestió de perfils reportats:</h4>
+    <p>
+      <ul>  
+        <li>El tweets reportats que ja existeixen a la BD (amb mateix tweetID) es tracten com a duplicats i no s'afegeixen (es descarten sense notificar).</li>
+        <li>Al llistat d'aquesta pàgina només es mostren el reports dels perfils que encara no han sigut blocats a cap llista. Si el CSV de perfils blocats s'actualitza, la llista
+        de reports deixa de mostrar els reports d'aquest perfil - To-Do: Fer que la llista s'actualitzi al rebre reports sense fer F5.</li>
+        <li>En properes versions els CSV estaràn sincronitzats a temps real amb la llista de 
+        blocks de @trollblocknet - pendent rebre autorització d'accés a l'API de Twitter</li>
+      </ul>
+    </p>
+    </div>   
+  
+  </main>
+
+    <footer>
+      Troll-Block Network - Gestió de llistes i notificacions - by <a href="https://www.twitter.com/trollblocknet">@trollblocknet</a> 😈
+    </footer>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="/client.js"></script>
+    <script src="https://button.glitch.me/button.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    
+  </body>
+</html>

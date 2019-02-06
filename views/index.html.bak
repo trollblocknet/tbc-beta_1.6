@@ -1,0 +1,162 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Troll-Block Network - Gestió de llistes i notificacions</title>
+    <meta name="description" content="#Troll-Block Network - Perfils reportats">
+    <link id="favicon" rel="icon" href="https://trollblocknet.github.io/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+<body onLoad="buildHtmlTable('#excelDataTable')">
+    <header>
+      <div class="welcomeTitle">
+        <a href="https://www.twitter.com/trollblocknet"><img class="logo "alt="Troll-Block Network - Twitter trollbusters at your service" height="50" width="50" src="https://cdn.glitch.com/6fac0864-fa20-4987-b433-d571b92ffe32%2Ftrollblocknet-logo.png?1548802139590"></a>
+      <welcometitle>
+      
+        <span class="customTitle">Troll-Block Network <span class="ribbon">🎗</span></span>
+      
+        </welcometitle>
+      </div>
+    </header>
+
+    <main> 
+      
+      <div>
+      <section>
+        <h2>❔ QUE ÉS #TROLLBLOCKNET I COM FUNCIONA</h2>
+        <h3>Benvingut a #TrollBlockNet</h3>
+
+        <p>Aquest perfil de Twitter 👉 <a href="https://twitter.com/trollblocknet">@trollblocknet</a> neix amb l’objectiu de proveir-vos d’un mecanisme de 
+          control de plagues de trolls, persones “non-grates”, col·laboradors amb el Règim del 78, empreses de l’IBEX-35 i d’altres espècimens de caire feixista i totalitari 
+          que es dediquen a fer-nos la guitza a Twitter.</p>
+
+        <p>Concretament, posem al vostre abast un sistema automàtic <a href="https://blocktogether.org">(web-app)</a> basat en subscripcions a llistats de perfils "Troll" 
+          a Twitter, de manera que els podreu blocar d’una forma totalment transparent i automàtica (això és; sense haver de fer res per a rebre actualitzacions).</p>
+
+        <h3>Anirem actualitzant els llistats en 3 categories diferents:</h3>
+
+        <p>☠️ <strong>TROLLS I "INFILTRATS INDEPES"</strong> ➡️ Perfils de Twitter que es dediquen a fotre merder, insultar, infiltrats amb comptes que semblen “indepes” que és dediquen provocar reaccions violentes (molt de compte amb aquests), etc.</p>
+
+        <p>☢️ <strong>COL·LABORADORS AMB EL RÈGIM DEL 78</strong> ➡️ Aquestes ja sabeu qui són, oi? Totes aquelles persones i entitats públiques que treballen per al règim (polítics, partits, estaments, mitjans de desinformació, forces de repressió, etc).</p>
+
+        <p>📉 <strong>EMPRESES DE L'IBEX-35</strong> ➡️ Empreses, col·laboradors, accionistes, i tot “cristo” que tingui alguna relació amb la capacitat financera del règim. Objectiu: ZERO propaganda seva al nostre TL de Twitter!</p>
+
+        <p>Per als que preferiu no subscriure-us a les llistes automàtiques, també podeu importar els llistats en format CSV de manera massiva en unes poques passes.</p>
+        
+        <h3>#femXarxa!</h3>
+
+        <p>Finalment, fem una crida a reportar els perfils que us sembli que encaixen amb qualsevol les categories anteriors, tant sigui fent-nos menció a <a href="https://twitter.com/trollblocknet">@trollblocknet</a>, com enviant-nos tweets per DM o utilitzant els hashtags <a href="https://twitter.com/hashtag/TrollBlockNet">#TrollBlockNet</a>, <a href="https://twitter.com/hashtag/AlertaTroll">#AlertaTroll</a>, etc. i Recordeu: <strong>Utilitzant la intel·ligència col·lectiva i treballant en equip som IMPARABLES!!</strong> 💪</p>
+
+      </section>
+    </div>
+      
+      <div>      
+          <h2>📇 LLISTATS DE PERFILS PER BLOQUEJAR:</h2> 
+    <table class="tg">
+      <tr>
+        <th class="tg-0lax">LLISTA</th>
+        <th class="tg-0lax">ENLLAÇ DE SUBSCRIPCIÓ AUTOMÀTICA</th>
+        <th class="tg-0lax">DESCÀRREGA MANUAL EN CSV</th>
+        <th class="tg-0lax">TOTAL DE PERFILS AFEGITS</th>
+        <th class="tg-0lax">DARRERA ACTUALITZACIÓ</th>
+      </tr>
+      <tr>
+        <td class="tg-0lax">☠️ Trolls unionistes i "Infilitrats Indepes"</td>      
+        <td class="tg-0lax"><a target="blank_" href="https://tinyurl.com/trollblocknet">Subscipció automàtica al llistat</a></td>
+        <td class="tg-0lax"><a target="blank_" href="https://raw.githubusercontent.com/trollblocknet/trollblocknet.github.io/master/trolls.csv">Descarregar CSV</a></td>
+        <td class="tg-0lax">1501</td>
+        <td class="tg-0lax">28/01/19 - 00:00</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">☢️ Col·laboradors Règim del 78</td>        
+        <td class="tg-0lax"><a target="blank_" href="https://tinyurl.com/xusmablocknet">Subscipció automàtica al llistat</a></td>
+        <td class="tg-0lax"><a target="blank_" href="https://raw.githubusercontent.com/trollblocknet/trollblocknet.github.io/master/nongrates.csv">Descarregar CSV</a></td>
+        <td class="tg-0lax">423</td>
+        <td class="tg-0lax">28/01/19 - 00:00</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">📉 Empreses IBEX-35</td>        
+        <td class="tg-0lax"><a target="blank_" href="https://tinyurl.com/ibexblocknet">Subscipció automàtica al llistat</a></td>
+        <td class="tg-0lax"><a target="blank_" href="https://raw.githubusercontent.com/trollblocknet/trollblocknet.github.io/master/ibex35.csv">Descarregar CSV</a></td>
+        <td class="tg-0lax">161</td>
+        <td class="tg-0lax">28/01/19 - 00:00</td>
+      </tr>
+    </table>
+        <p>⚠️ Instruccions per a realitzar la subscripció automàtica 👉 <a href="https://blocktogether.org">aquí</a>.</p>
+
+        <p>⚠️ Instruccions per a importar els llistats al perfil de Twitter (només per PC i MAC) 👉 <a href="https://help.twitter.com/es/using-twitter/advanced-twitter-block-options">aquí</a>.</p>
+      </div>
+      <div>
+            
+      <h2>🔔 NOTIFICACIONS DE PERFILS REPORTATS PENDENTS DE VERIFICAR:</h2>
+    
+    <section>
+      <table id="excelDataTable" border="1" class="tg"></table>
+    </section>
+    
+    <h5><a href="#">Actualitzar llista</a></h5>  
+        
+      </div>
+    
+    <div class="card card-3">
+    <h4>⚠️ Informació al respecte de la gestió de perfils reportats:</h4>
+    <p>
+      <ul>  
+        <li>El tweets reportats que ja existeixen a la BD (amb mateix tweetID) es tracten com a duplicats i no s'afegeixen (es descarten sense notificar).</li>
+        <li>Al llistat d'aquesta pàgina només es mostren el reports dels perfils que encara no han sigut blocats a cap llista. Si el CSV de perfils blocats s'actualitza, la llista
+        de reports deixa de mostrar els reports d'aquest perfil - To-Do: Fer que la llista s'actualitzi al rebre reports sense fer F5.</li>
+        <li>En properes versions els CSV estaràn sincronitzats a temps real amb la llista de 
+        blocks de @trollblocknet - pendent rebre autorització d'accés a l'API de Twitter</li>
+      </ul>
+    </p>
+    </div>
+ 
+    <div>
+      <h2>💡 RECOMANACIONS DE BONES PRÀCTIQUES A LES XARXES</h2>
+      <h3>PERFILS I INICIATIVES A TWITTER</h3>
+
+        <p>@alertatrollcat @bulobot @CibeRespect @congosto @cyberRepubliCat @generoenaccion @jivagos @malditobulo @machisstometro @reportometro @PanfletoMetro @HashtagsxRep DivendresXRep</p>
+
+        <h3 id="fils-recomanats">FILS DE TWITTER</h3>
+
+        <p>https://twitter.com/jivagos/status/1080770887597596672</p>
+
+        <h3 id="hashtags-recomanats">HASHTAGS</h3>
+
+        <p>#AlertaTroll #AlertaTrollCat #Bloqueig #Bloqueo #TrollBlockNet <a href="https://twitter.com/hashtag/FemXarxa">#femXarxa</a> <a href="https://twitter.com/hashtag/StopCatalanoFobia">#StopCatalanofòbia</a> <a href="https://twitter.com/hashtag/FemLaRepublicaCatalana">#FemLaRepublicaCatalana</a></p>
+
+    </div>
+  
+      
+  
+  </main>
+
+    <footer>
+      Troll-Block Network - Gestió de llistes i notificacions - by <a href="https://www.twitter.com/trollblocknet">@trollblocknet</a> 😈
+    </footer>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix 
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>-->
+    <script src="https://button.glitch.me/button.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+  </body>
+</html>
