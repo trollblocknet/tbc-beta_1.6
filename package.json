@@ -1,0 +1,32 @@
+{
+  "name": "cloudamqp2sqlite",
+  "version": "0.0.1",
+  "description": "Retrieve messages from cloudamqp and store them in sqlite db",
+  "main": "app.js",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "express": "^4.16.4",
+    "sqlite3": "^4.0.6",
+    "twitter": "^1.7.1",
+    "util": "^0.11.1",
+    "node-datetime": "^2.1.2"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/~field-acrylic"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "amqplib",
+    "sqlite",
+    "express",
+    "twitter"
+  ]
+}

@@ -1,0 +1,125 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h2{
+  margin-top:50px;
+}
+
+h3{
+  margin-top:50px;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+/*h3 {
+    display: list-item;          
+    list-style-type: "\1F535";       
+    list-style-position: inside; 
+    left: -30px;
+}*/
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 1300px;
+}
+
+li
+{
+/*background-image: url(arrow.gif);
+background-repeat: no-repeat;
+background-position: 100% .4em;
+padding-right: .6em;*/
+margin: 1.2em 0;
+
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+table {
+                border-collapse: collapse;
+                border: 2px black solid;
+                font: 12px sans-serif;
+            }
+
+            td {
+                border: 1px black solid;
+                padding: 5px;
+            }
+
+/*CUSTOM HEADER*/
+
+.header.content > img,
+.hedaer.content > welcometitle {
+    display: inline-block;
+}
+
+.customTitle {
+font-size: 50px;
+margin-left: 10px;
+font-style: italic;
+color:blue;
+}
+
+.ribbon {
+color:yellow;
+  -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+/*.logo {
+
+}*/
+
+/* CUSTOM TABLES -> https://www.tablesgenerator.com/html_tables# */
+
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:13px 15px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:13px 15px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+
+/* CUSTOM CARDS --> https://codepen.io/sdthornton/pen/wBZdXq */
+
+.card {
+  background: #ddd;
+  border-radius: 2px;
+  display: inline-block;
+  /*height: 300px;*/
+  margin: 1rem;
+  position: relative;
+  max-width: 650px;
+   padding: 20px 40px 20px 40px;
+  font-size: 13px;
+  
+}
+
+.card h4{
+  /*margin-bottom:25px;*/
+  font-size: 16px;
+}
+
+.card-3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+/* CUSTOM <LI> --> MARGINS */
+
+
+
